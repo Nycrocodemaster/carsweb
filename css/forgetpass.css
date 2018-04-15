@@ -1,0 +1,68 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  width: 50%;
+  padding: 8% 0 0;
+  margin: auto;
+
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: rgba(77, 77, 77,.4);
+  max-width: 50%;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input[type=text]{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  border:2px solid #aaa;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+
+}
+.form input[type=text]:focus{
+	border-color:#00c6d7;
+	box-shadow:0 0 8px 0 #00c6d7;
+}
+.form input[type=submit] {
+  text-align: center;
+    border: 0;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 600;
+	 max-width: auto;
+    padding: 10px 50px;
+    background-color: rgba(0, 0, 0, 0.34);
+    border: 3px solid rgba(255, 255, 255, 0.43);
+    -webkit-box-shadow: 0 12px 32px 0 rgba(0, 0, 0, 0.71);
+    -moz-box-shadow: 0 12px 32px 0 rgba(0, 0, 0, 0.71);
+    box-shadow: 0 12px 32px 0 rgba(0, 0, 0, 0.71);
+    outline: none;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out
+
+}
+.form input[type=submit]:hover {
+color: #ffffff;
+    border-color: #00c6d7;
+}
+body {
+ margin:0;
+	padding:0;
+	background:url(Lamborghini-Sports-Cars-Black-and-White-HD-Wallpaper.jpg);
+	font-family:sans-serif;
+	background-size:cover;
+}

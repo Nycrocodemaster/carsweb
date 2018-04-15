@@ -1,0 +1,14 @@
+  if (Request.Cookies["Login"] == null)
+        {
+            Response.Redirect("Login.aspx");
+        }
+        else
+        {
+            SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["RegistrationConnectionString"].ConnectionString);
+            SqlDataAdapter sda1= new SqlDataAdapter("select * from Registrationtb where id='"+Request.Cookies["Login"]["id"].ToString()+"'",con);
+            DataTable dt3 =new DataTable();
+            sda1.Fill(dt3);
+            Label1.Text=dt3.Rows[0]["Username"].ToString();
+
+            if
+        }
