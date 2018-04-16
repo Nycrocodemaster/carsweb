@@ -32,9 +32,6 @@
         <link rel="apple-touch-icon" sizes="72x72" href="../assets/img/color-1/template/icon-72x72.png"/>
         <link rel="apple-touch-icon" sizes="114x114" href="../assets/img/color-1/template/icon-114x114.png"/>
 
-
-
-
     <style>
         @import url('https://fonts.googleapis.com/css?family=Exo+2:700');
 
@@ -192,11 +189,11 @@ body {
 									<li class="dropdown mega-holder">
                                         <a href="Blog.aspx" class="dropdown-toggle">Blogs</a>
                                     </li>
-                                    <li class="dropdown">
+                                     <li class="dropdown">
                                         <a href="blog.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More</a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="#">Contact US</a></li>
-                                            <li><a href="#">About US</a></li>
+                                            <li><a href="feedbacku.aspx">Contact US</a></li>
+                                            <li><a href="Aboutusu.aspx">About US</a></li>
                                         </ul>
                                     </li>
 									
@@ -324,11 +321,10 @@ also a contact page so that you can contact us if nay issues realted sites or fu
         </footer>	
 
         <!--------------- Script --------------->
-          <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/owl.carousel.min.js"></script>
-        <script src="assets/js/jquery-ui.min.js"></script>
-        <script src="assets/js/custom.js"></script>
+          <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/jquery-3.1.1.min.js"></script>
+        <script src="../assets/js/bootstrap.min.js"></script>
+
 
 
 </body>

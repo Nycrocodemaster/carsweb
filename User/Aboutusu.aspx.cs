@@ -9,7 +9,14 @@ public partial class User_Aboutusu : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        if (Request.Cookies["Login"] != null)
+        {
+            Label2.Text = Request.Cookies["Login"]["Username"].ToString();
+        }
+        else
+        {
+            Response.Redirect("Login.aspx");
+        }
     }
     protected void btnLogout_Click(object sender, EventArgs e)
     {

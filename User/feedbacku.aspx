@@ -253,11 +253,9 @@ padding: 4px 20px 4px 21px;
         </footer>	
 
         <!--------------- Script --------------->
-          <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/owl.carousel.min.js"></script>
-        <script src="assets/js/jquery-ui.min.js"></script>
-        <script src="assets/js/custom.js"></script>
+              <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/jquery-3.1.1.min.js"></script>
+        <script src="../assets/js/bootstrap.min.js"></script>
 </body>
 </html>
 

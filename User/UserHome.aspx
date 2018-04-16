@@ -235,10 +235,7 @@
                                         <img class="front-img" src="../<%#Eval("cimage") %>" alt="Product Front">
                                     </a>
                                
-                                    <div class="product-btn">
-                                        <a class="to-compare" href="#"><i class="fa fa-plus"></i><span class="tooltip">Add To Compare</span></a>
-          
-                                    </div>
+                                   
                                 </div>
                                 <div class="product-info">
                                     <h5 class="product-name"><a href="carsproduct.aspx?id=<%#Eval("Mid") %>"><%#Eval("Model_name") %></a></h5>
@@ -290,9 +287,7 @@
                                         <img class="front-img" src="../<%#Eval("spimg") %>" alt="Product Front">
                                     </a>
 
-                                    <div class="product-btn">  
-                                        <a class="to-compare" href="#"><i class="fa fa-plus"></i><span class="tooltip">Add To Compare</span></a>  
-                                    </div>
+                                    
                                 </div>
                                 <div class="product-info">
                                     <h5 class="product-name"><a href="spproduct.aspx?id=<%#Eval("id") %>"><%#Eval("spname") %></a></h5>
